@@ -20,7 +20,7 @@ class SMMS:
     def __init__(self):
         # 参数设置
         self.url = 'https://sm.ms/api/v2/upload'
-        self.authorization = 'wZqSFbPiynsmUxGs3zFl7Jmu7Cj5SQXR'
+        self.authorization = ''
         self.file_name_without_path = f'{int(time.time())}.jpg'
         self.file_name = os.path.join(os.getcwd(), self.file_name_without_path)
 
